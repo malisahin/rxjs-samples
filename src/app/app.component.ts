@@ -13,6 +13,6 @@ export class AppComponent {
 
   constructor(private service: SwitchMapService) {
     //constructor(private mergeMapService: MergeMapService, private concatMapService: ConcatMapService) {
-    this.service.execute();
+    this.service.execute3();
   }
 }
